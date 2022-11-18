@@ -107,7 +107,7 @@ header{
 }
 
 .contenedor-Sobre-nosotros img{
-    width: 40%;
+    width: 50%;
 }
 
 .gat-Sobre-nosotros{
@@ -210,7 +210,7 @@ header{
     margin:0 auto;
     margin-bottom: 15px;object-fit: cover;
     display: block;
-    box-shadow: 0 0 10px rgb(4, 85, 66);
+    box-shadow: 0 0 10px rgb(0, 162, 255);
     cursor: pointer;
 }
 
@@ -281,8 +281,11 @@ footer{
 
 @media screen and (max-width:1368px){
     .menu-navegacion{
-        width: 30vw;
+        width: 50vw;
         font-size: 30px;
+    }
+    .cerrar{
+        width: 90px;
     }
     .titulo{
         font-size: 55px;
@@ -291,11 +294,11 @@ footer{
         font-size: 70px;
     }
     .contenedor-Sobre-nosotros img{
-        width: 40%;
+        width: 70%;
     }
         
     .gat-Sobre-nosotros{
-        width: 50%;
+        width: 80%;
     }
     .number{
         width: 40px;
@@ -346,6 +349,9 @@ footer{
     .menu-navegacion{
         width: 45vw;
         font-size: 20px;
+    }
+    .cerrar{
+        width: 50px;
     }
 
     .contenedor-Sobre-nosotros img{
